@@ -2,13 +2,14 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
     max-width: 960px;
-    margin: auto;
+    margin: 20px auto; /* Added margin to center the content and provide space around it */
+    padding: 0 20px; /* Added padding to provide space around the content */
     line-height: 1.6;
 }
 
 header {
     text-align: center;
-    margin: 1em 2em;
+    margin-bottom: 20px; /* Added margin to create space below the header */
 }
 
 h1 {
