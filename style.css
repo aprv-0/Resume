@@ -6,6 +6,11 @@ body {
     line-height: 1.6;
 }
 
+header {
+    text-align: center;
+    margin: 1em 2em;
+}
+
 h1 {
     font-size: 2.5em;
     letter-spacing: 0.1em;
@@ -21,16 +26,6 @@ h2 {
     margin-bottom: 0.5em;
 }
 
-h3 {
-    font-size: 1.2em;
-    padding-bottom: 0.5em;
-}
-
-header {
-    text-align: center;
-    margin: 1em 2em;
-}
-
 main { 
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -40,10 +35,6 @@ main {
 
 section {
     margin-bottom: 2em;
-}
-
-i {
-    margin-right: 0.5em;
 }
 
 p {
@@ -63,9 +54,13 @@ ul li::before {
     margin-left: -1em;
 }
 
-address {
-    font-style: normal;
-    line-height: 1.8;
+#mainLeft {
+    border-right: 1px solid lightgray;
+    padding-right: 1em;
+}
+
+#mainRight {
+    padding-left: 1em;
 }
 
 hr {
@@ -75,11 +70,6 @@ hr {
     margin: 1em 0;
 }
 
-#mainLeft {
-    border-right: 1px solid lightgray;
-    padding-right: 1em;
-}
-
-#mainRight {
-    padding-left: 1em;
+i {
+    margin-right: 0.5em;
 }
